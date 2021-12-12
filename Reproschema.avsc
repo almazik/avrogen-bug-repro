@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "ReproduceType",
+  "namespace": "Test.Avro",
+  "fields": [
+    {
+      "name": "EnumJustToCheck",
+      "type": {
+        "type": "enum",
+        "name": "EnumJustToCheck",
+        "namespace": "Test.Avro",
+        "symbols": ["One","Two"]
+      }
+    }
+  ]
+}
